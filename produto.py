@@ -20,7 +20,7 @@ class Produto:
             print("0")
 
     def exibir_info(self):
-        print(f"[{self.nome}][{self.preco}][{self.quantidade}]")
+        print(f"{self.nome} {self.preco} {self.quantidade}")
 
 
 produto1 = Produto("Vaso", 19.99, 100)
